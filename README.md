@@ -26,6 +26,8 @@ TABLE-01 EXITATION TABLE FOR H BRIDGE
 As shown in the circuit diagram we need only 3 Arduino terminal pins, pin 8 is for the push button which toggles the motor direction of rotation. Pins 9 and 10 are PWM signal outputs, at any time there is only 1 active PWM, this allows us to control the direction as well as the speed by varying the duty cycle of the PWM signal. The active PWM pin decides the motor direction of rotation (one at a time, the other output is logic 0).
 
 ### PRGORAM 
+Develpoed by: Varsha Ajith
+Reg no: 212221230118
 ## PROGRAM TO MAKE DC MOTOR ROTATE
 ~~~
 const int motorpin1 = 5;
@@ -87,4 +89,4 @@ void clockwise(int speed)
 
 
 ### RESULTS AND DISCUSSION 
-
+Thus, the speed and the direction of a DC motor using L293D driver ic( H- bridge) is controlled.
