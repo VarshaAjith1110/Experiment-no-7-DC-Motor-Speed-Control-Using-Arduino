@@ -46,6 +46,7 @@ void loop()
 }
 ~~~
 ## PROGRAM TO CONTROL DC MOTOR ROTATION
+~~~
 #define motorIn1 5
 #define motorIn2 6
 
@@ -73,11 +74,14 @@ void clockwise(int speed)
   analogWrite(motorIn1,0);
   analogWrite(motorIn2,speed);
 }
-
+~~~
 ### OUTPUT
+![op](https://user-images.githubusercontent.com/94222288/204120843-909dc8a1-0166-47b5-9b75-2ed36dc68664.png)
 
 
 ### GRAPH AND TABULATION 
+![op1 (1)](https://user-images.githubusercontent.com/94222288/204120850-b85fbce8-f6a5-48dc-b2f9-a59b59d7f80c.png)
+![op2 (1](https://user-images.githubusercontent.com/94222288/204120856-e360e5eb-d780-44bb-b44a-49bfc623dbe1.png)
 
 
 
